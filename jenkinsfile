@@ -6,7 +6,7 @@ pipeline{
                 echo "Building Started"
                 deleteDir()
                 sh '''
-                    git https://github.com/shifna8547/genkins.git
+                    git clone https://github.com/shifna8547/genkins.git
                     ls -l
                 '''
             }
